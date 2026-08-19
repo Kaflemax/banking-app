@@ -1,10 +1,11 @@
 import Homelayout from "../Layout/Homelayout";
+import Login from "./Login";
 const Homepage = () =>{
     return (
         <Homelayout>
-            <h1 className = "text-5xl font-bold text-red-500">
-                Homepage
-            </h1>
+            
+            <Login />
+
         </Homelayout>
     )
 }
